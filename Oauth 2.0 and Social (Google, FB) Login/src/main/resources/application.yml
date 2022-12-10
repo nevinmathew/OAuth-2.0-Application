@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      database: oauth_db
+      database: <your daatabase name>
       port: '27017'
       host: localhost
       
@@ -10,13 +10,12 @@ spring:
       client:
         registration:
           google:
-            client-id: 956113667391-8vicrivt445untu61se8qc0hrhr7i9s3.apps.googleusercontent.com
-            client-secret: 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
-
+            client-id: <your client id>
+            client-secret: <your client secret>
           facebook:
-            clientId: '709968836636237'
-            clientSecret: 7fa047d6dcb52a62800911cf544d5142
+            clientId: <your client id>
+            clientSecret: <your client secret>
 #facebook:
 #  scope: public_profile
   
-SigningKey: jwtkey
+SigningKey: <your jwt key>
