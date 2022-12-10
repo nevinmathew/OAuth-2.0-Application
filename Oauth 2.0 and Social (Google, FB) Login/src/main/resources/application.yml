@@ -1,0 +1,22 @@
+spring:
+  data:
+    mongodb:
+      database: oauth_db
+      port: '27017'
+      host: localhost
+      
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 956113667391-8vicrivt445untu61se8qc0hrhr7i9s3.apps.googleusercontent.com
+            client-secret: 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
+
+          facebook:
+            clientId: '709968836636237'
+            clientSecret: 7fa047d6dcb52a62800911cf544d5142
+#facebook:
+#  scope: public_profile
+  
+SigningKey: jwtkey
