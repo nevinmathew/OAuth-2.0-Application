@@ -13,7 +13,6 @@ This is a spring boot application with MongoDB database which demonstrates email
 - [License](#license)
 
 ## Languages and Tools
-<h3 align="left">Languages and Tools:</h3>
 <table>
     <tbody>
         <tr valign="top">
